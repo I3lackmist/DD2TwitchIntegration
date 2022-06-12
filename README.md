@@ -2,7 +2,7 @@
 A Darkest Dungeon 2 chat engagement website. This application may have 3 layers of integration.
 
 ## Layer I - Team composition through chat
-To start using the application, it needs a way to access the Twitch chat of a streamer. There are a couple proposed ways of achieving this -
+To start using the application, it needs a way to access the Twitch chat of a streamer. There are a couple proposed ways of achieving this:
 1. The streamer provides the link to their stream, and the application starts observing the chat;
 2. The streamer can log into the application using their Twitch account.
 
@@ -18,25 +18,25 @@ The streamer has options to modify the conditions of the lobby, such as:
 - Optional - Selection period duration;
 - Optional - Raffle duration.
 
-Starting the lobby begins a raffle of specified time length, during which chat members can participate in the raffle by sending a message in proper format.
+Starting the lobby begins the raffle, during which chat members can participate in the raffle by sending a message in proper format.
 
 The streamer sees the total number of raffle submissions and a list of participants is displayed to them.
 
-When the time period ends, 4+1 chat members get selected - respectively 4 to join the team of adventurers, and 1 to 'lead' the stagecoach.
+When the raffle ends, 4+1 chat members get selected - respectively 4 to join the team of adventurers, and 1 to 'lead' the stagecoach.
 
-From now, a 'selection period' starts. This is a period of time during which the designated chat memebers get to influence their character/rank selections and the stagecoach.
+From now, a 'selection period' starts. This is a period of time during which the designated chat members - let's call them the 'adventurers' and the 'stagecoach driver' from this point forward - get to influence their character/rank selections and the stagecoach.
 
-During the selection period, the designated chat members can specify their name, by default their Twitch handle (SFW names only, of course), the character they will play as and the rank in which they want to be placed.
+During the selection period, the adventurers can specify their name, by default their Twitch handle (SFW names only, of course), the character they will play as and the rank in which they want to be placed.
 
-In order to have a way to deal with class/rank collisions, the designated chat memebers may provide 2 additional setups or modify any 3 of them.
+In order to have a way to deal with class/rank collisions, the adventurers may provide 2 additional setups or modify any 3 of them.
 
-The chat member designated to the stagecoach gets to chose the stagecoach name and the livery.
+The stagecoach drivers may choose the stagecoach name and the livery.
 
 This is all done by sending messages in Twitch chat in proper format.
 
-During the selection period, the streamer should stream the application view, which displays the current choice list and all the necessary instructions for the viewers. They may also provide a link to the documentation to the chat members, which is also displayed on the streamer's view.
+During the selection period, the streamer should stream the application view, which displays the current choice list and all the necessary instructions for the adventurers and stagecoach driver. They may also provide a link to the documentation to them, which is also displayed on the streamer's view.
 
-The streamer can press a button to end the raffle and selection period at any moment. This ends the chat integration.
+The streamer can press a button to end the raffle and selection period at any moment. This ends the chat interaction.
 
 The selected options are only a suggestion - there is no integration with the game itself to enforce these choices.
 
@@ -52,12 +52,12 @@ From here, they can look up the existing lobbies in the raffle phase through a s
 
 If the streamer started a lobby, the raffle should show up on the list, and the viewers can join it. After they joined, the raffle timer is displayed to them, and when it ends - the result of their participation.
 
-The viewers who weren't chosen will be informed of that and redirected back to the lobby search view.
+The viewers who weren't chosen will be informed and redirected back to the lobby search view.
 
-The viewers who were chosen - lets call them 'adventurers' and the 'stagecoach driver' from this point forward - are informed, and are presented with a selection screen, wherein they can choose all the things as in layer I, namely - the name, the class and the rank, with an option for specifying a list of selections of these things. They may also modify the list entries.
-
+The viewers who were chosen are informed, and are presented with a selection screen, wherein they can choose all the things as in layer I, namely - the name, the class and the rank, with an option for specifying a list of selections of these things. They may also modify the list entries.
 
 The adventurers may also select the skill-sets they desire, and which to upgrade.
+
 The selection of skills and upgrades may also be toggled on/off in the lobby creation screen by the streamer.
 
 Similar to layer I, these choices are all only suggestions from the adventurers.
