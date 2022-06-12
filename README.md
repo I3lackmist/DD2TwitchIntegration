@@ -42,7 +42,7 @@ The selected options are only a suggestion - there is no integration with the ga
 
 The following layers are opt-in features - this is the very base of the application.
 
-# II - Team composition through the application
+# Layer II - Team composition through the application
 
 This layer requires that in layer I, the second approach for lobby creation was used, or that in the development cycle the application will be modified into using the second approach, or both.
 
@@ -66,7 +66,7 @@ Unlike layer I, the adventurer/stagecoach driver interaction doesn't end when th
 
 The adventurers and the stagecoach driver may vote for which region the embark upon.
 
-# III - Darkest Dungeon 2 integration
+# Layer III - Darkest Dungeon 2 integration
 
 This layer consists of a modification to the game. The specifications of this layer will be detailed at a later date, however the base concepts are:
 - The adventurers may change their skillsets between battles;
