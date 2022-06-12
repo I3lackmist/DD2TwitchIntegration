@@ -1,5 +1,5 @@
 # Concept
-A Darkest Dungeon 2 chat engagement website. This application may have 3 layers of integration.
+A Darkest Dungeon 2 chat engagement project. This application may have 3 layers of integration.
 
 ## Layer I - Team composition through chat
 To start using the application, it needs a way to access the Twitch chat of a streamer. There are a couple proposed ways of achieving this:
