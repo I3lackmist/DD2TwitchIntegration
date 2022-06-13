@@ -73,6 +73,12 @@ This layer consists of a modification to the game. The specifications of this la
 - The adventurers may influence random barks;
 - The adventurers may influence combat interactions;
 - The stagecoach driver may change the livery at any time;
+- The adventurers may vote for their preferred routes on the map, thusly influencing stress ticks;
 - The adventurers may influence their roadside combat attitude (whether or not they want to participate in the upcoming battles);
   - If an adventurer chains 'yes' combat decisions, they provide beneficial effects to battle start.
 - The adventurers and the stagecoach driver may vote for upcoming regions.
+
+
+# Loose ideas
+
+- Community death roulette per character
