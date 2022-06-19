@@ -1,0 +1,70 @@
+@font-face {
+	font-family: GermaniaOne;
+	src: url('./fonts/GermaniaOne.ttf');
+}
+
+@font-face {
+	font-family: Balthazar;
+	src: url('./fonts/Balthazar.ttf');
+}
+
+:root {
+	--bg: rgba(5, 5, 10, 100);
+
+	--text: rgba(255, 255, 255, 100);
+	--subtext: rgba(217, 223, 227, 100);
+
+	--key: rgba(29, 109, 153, 100);
+	--key-dark: rgba(29, 90, 134, 100);
+
+	--auxillary: rgba(15, 40, 60, 100);
+	--auxillary-dark: rgba(5, 10, 10, 100);
+
+	--accent: rgba(247, 218, 143, 100);
+	--accent-dark: rgba(126, 74, 22, 100);
+
+	--card-bg-top: rgba(62, 62, 70, 100);
+
+	--key-gradient: rgba(29, 109, 153, 0);
+}
+
+@media (prefers-color-scheme: dark) {
+	/* TODO: Learn about this query */
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	position: relative;
+}
+
+body {
+	min-height: 100vh;
+	color: var(--text);
+	background-image: linear-gradient(var(--auxillary),var(--auxillary), var(--bg));
+
+	font-family: Balthazar, 'Helvetica Neue', sans-serif;
+	font-size: 22px;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: GermaniaOne;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h5 {
+	font-size: 16px;
+}
