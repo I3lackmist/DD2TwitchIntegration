@@ -22,10 +22,11 @@
 
 	--accent: rgba(247, 218, 143, 100);
 	--accent-dark: rgba(126, 74, 22, 100);
+	--accent-darker: rgba(105, 53, 22, 100);
 
 	--card-bg-top: rgba(62, 62, 70, 100);
 
-	--key-gradient: rgba(29, 109, 153, 0);
+	--key-gradient-0: rgba(29, 109, 153, 0);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,12 +58,24 @@ h1, h2, h3, h4, h5 {
 	font-family: GermaniaOne;
 }
 
+p {
+	span {
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+}
+
 h1 {
 	font-size: 40px;
 }
 
 h2 {
 	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
 }
 
 h5 {
